@@ -13,14 +13,14 @@ Gem::Specification.new do |s|
   s.description = %q{Implements the MDWA approach for Ruby on Rails.}
 
   s.rubyforge_project = "mdd"
-  
+
   s.add_dependency 'rails', '>= 3.2.8'
   s.add_dependency 'jquery-rails', '>= 2.2.0'
   s.add_dependency 'jquery-ui-rails', '>= 2.2.0'
   s.add_dependency 'devise', '>= 2.1'
   s.add_dependency 'cancan', '>= 1.6'
   s.add_dependency 'will_paginate', '>= 3.0'
-  s.add_dependency 'rails-settings-cached', '0.2.4'
+  s.add_dependency 'rails-settings-cached', '0.3.2'
   s.add_dependency 'nested_form', '>= 0.2'
   s.add_dependency 'require_all', '>= 1.2.1'
   s.add_dependency 'rspec'
